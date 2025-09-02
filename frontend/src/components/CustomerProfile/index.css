@@ -1,0 +1,13 @@
+.customer-profile {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.customer-profile h2 {
+    margin-bottom: 10px;
+}
+
+.customer-profile h3 {
+    margin-top: 20px;
+}

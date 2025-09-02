@@ -1,0 +1,48 @@
+.address-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+.address-list th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.address-list th {
+    background-color: #f2f2f2;
+}
+
+.address-list button {
+    cursor: pointer;
+}
+
+.add-address {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.add-address input {
+    padding: 5px;
+    flex: 1;
+    min-width: 100px;
+}
+
+.add-address button {
+    padding: 5px 10px;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+@media(max-width: 600px){
+    .add-address {
+        flex-direction: column;
+    }
+
+    th, td {
+        font-size: 12px;
+    }
+}
